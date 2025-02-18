@@ -51,7 +51,7 @@ payload:
     - o33249.ingest.sentry.io
     - openaicom.imgix.net
     - browser-intake-datadoghq.com
-
+    - grok.com
  # https://github.com/MetaCubeX/meta-rules-dat/blob/meta/geo/geosite/perplexity.yaml
     - +.perplexity.ai
   #   - +.openwrt.cc
