@@ -4,7 +4,7 @@
 payload:
 # notepad++ 行操作， 去重， 按数字排列
 
-  # https://github.com/MetaCubeX/meta-rules-dat/blob/meta/geo/geosite/category-android-app-download.yaml
+# https://github.com/MetaCubeX/meta-rules-dat/blob/meta/geo/geosite/category-android-app-download.yaml
     - +.apkpure.com
     - +.apkpure.net
     - +.cdnpure.com
@@ -12,7 +12,12 @@ payload:
     - +.winudf.com
     - +.apkcombo.com
     - +.apkmirror.com
+
+# https://github.com/MetaCubeX/meta-rules-dat/blob/meta/geo/geosite/f-droid.yaml
+    - +.f-dro1d.org
+    - +.f-droid.com
     - +.f-droid.org
+    - +.fdroid.org
 
  # https://github.com/MetaCubeX/meta-rules-dat/blob/meta/geo/geosite/linkedin.yaml  
     - e122475.dscg.akamaiedge.net
