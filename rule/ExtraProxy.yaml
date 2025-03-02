@@ -12,6 +12,7 @@ payload:
     - +.winudf.com
     - +.apkcombo.com
     - +.apkmirror.com
+    - +.f-droid.org
 
  # https://github.com/MetaCubeX/meta-rules-dat/blob/meta/geo/geosite/linkedin.yaml  
     - e122475.dscg.akamaiedge.net
