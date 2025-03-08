@@ -20,9 +20,14 @@ payload:
   # - +.miwifi.com
   # - +.routerlogin.com
 # Other domains, VPS
+    - n1router.ddnsfree.com
+    - router.houzi-blog.top
+  
   #   - data.flurry.com
-     # fix google play cant download issue
-  #   - +.xn--ngstr-lra8j.com
+  
+    - +.intel.cn
+    - +.edu.cn
+    - +.10086.cn  # for IPV6 check  , nslookup 10086.cn , nslookup -port=6053 10086.cn
   
   # 招商银行 https://github.com/MetaCubeX/meta-rules-dat/blob/meta/geo/geosite/cmb.yaml
     - +.8008205555.cn
