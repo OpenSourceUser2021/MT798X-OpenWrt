@@ -1,10 +1,13 @@
-  #  r202404291020
+  #  r20250220
   # Check https://github.com/v2fly/domain-list-community/tree/master/data to know which label we can use as filter
   #  ->  https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite
 payload:
 # notepad++ 行操作， 去重， 按数字排列
 
-# https://github.com/MetaCubeX/meta-rules-dat/blob/meta/geo/geosite/category-android-app-download.yaml
+   # https://link.gimhoy.com/  网盘直链获取工具
+    - dlink.host
+   
+ # https://github.com/MetaCubeX/meta-rules-dat/blob/meta/geo/geosite/category-android-app-download.yaml
     - +.apkpure.com
     - +.apkpure.net
     - +.cdnpure.com
@@ -12,13 +15,13 @@ payload:
     - +.winudf.com
     - +.apkcombo.com
     - +.apkmirror.com
-
-# https://github.com/MetaCubeX/meta-rules-dat/blob/meta/geo/geosite/f-droid.yaml
+    
+ # https://github.com/MetaCubeX/meta-rules-dat/blob/meta/geo/geosite/f-droid.yaml
     - +.f-dro1d.org
     - +.f-droid.com
     - +.f-droid.org
     - +.fdroid.org
-
+    
  # https://github.com/MetaCubeX/meta-rules-dat/blob/meta/geo/geosite/linkedin.yaml  
     - e122475.dscg.akamaiedge.net
     - licdn.cn.cdn20.com
@@ -39,36 +42,31 @@ payload:
     - +.cnbeta.com.tw
 
  # https://github.com/MetaCubeX/meta-rules-dat/blob/meta/geo/geosite/openai.yaml
+    - chat.openai.com.cdn.cloudflare.net
     - openaiapi-site.azureedge.net
     - openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
     - openaicomproductionae4b.blob.core.windows.net
     - production-openaicom-storage.azureedge.net
     - +.ai.com
     - +.chatgpt.com
-    - +.chat.com
     - +.oaistatic.com
     - +.oaiusercontent.com
     - +.openai.com
-    - +.sora.com
-    - +.chatgpt.livekit.cloud
-    - +.host.livekit.cloud
-    - +.turn.livekit.cloud
     - +.openai.com.cdn.cloudflare.net
     - o33249.ingest.sentry.io
     - openaicom.imgix.net
-    - browser-intake-datadoghq.com
+
     - grok.com
  # https://github.com/MetaCubeX/meta-rules-dat/blob/meta/geo/geosite/perplexity.yaml
     - +.perplexity.ai
   #   - +.openwrt.cc
   
-  #   - services.googleapis.cn # for google services
-  # # OneDrive
-  #   - +.onenote.com
-  #   - api.onedrive.com
+# fix google play cant download apk issue
+    - +.xn--ngstr-lra8j.com 
+    - services.googleapis.cn
   
   
-#  https://github.com/dler-io/Rules/blob/main/Clash/Provider/OpenAI.yaml
+#  please check https://github.com/dler-io/Rules/blob/main/Clash/Provider/OpenAI.yaml
   # > Claude
     - +.anthropic.com
     - +.claude.ai
@@ -97,11 +95,10 @@ payload:
   - '+.nflxvideo.net' 
   
   # 订阅
-    - subscribe.kelecloud.org 
-    - subsubsubsubsub.keledydz.uk
-    - +.klklklkl.uk
-    - +.kelecloud.xyz
-  
+    # - subscribe.kelecloud.org 
+    # - subsubsubsubsub.keledydz.uk
+    # - +.klklklkl.uk
+    # - +.kelecloud.xyz
     - api.dynu.com
     - more.musl.cc
   
@@ -110,8 +107,9 @@ payload:
     - sydney.bing.com
     - edgeservices.bing.com
   
-  # Firstup ,Circult +
+  # Firstup ,
   #   - +.socialchorus.com
+
   # 图床
     - +.redircdn.com
     - +.99img.cc
@@ -121,14 +119,19 @@ payload:
     - +.postimages.org
     - i.loli.net
   
+    - sing-box.sagernet.org
   # RSS
     - plink.anyfeeder.com
+  
     - v2.hysteria.network
-    - sing-box.sagernet.org
-    - +.metacubex.one
     - idev.dev
+    - +.metacubex.one
     - playmods.net
   
   #   - connect.rom.miui.com
+  
     - revanced.net
+    
     - +.openwrt.org
+    
+    
