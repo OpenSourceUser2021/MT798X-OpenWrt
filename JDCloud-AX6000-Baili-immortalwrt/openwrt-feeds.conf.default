@@ -1,4 +1,6 @@
 # 越靠前优先级越高
+
+src-git OpenAppFilter https://github.com/destan19/OpenAppFilter.git 
 src-git lang_golang https://github.com/sbwml/packages_lang_golang.git
 src-git OpenWrt_alist https://github.com/sbwml/openwrt-alist.git
 src-git wechatpush https://github.com/tty228/luci-app-wechatpush.git
