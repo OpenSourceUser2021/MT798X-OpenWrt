@@ -73,10 +73,10 @@ chmod +x files/etc/openclash/core/clash*
 sed -i '/myddns_ipv4/,$d' feeds/packages/net/ddns-scripts/files/etc/config/ddns
 
 # enable wifi by default
-sed -i "s/set \${s}\.disabled='[^']*'/set \${s}.disabled='0'/g"  package/network/config/wifi-scripts/files/lib/wifi/mac80211.uc
+#sed -i "s/set \${s}\.disabled='[^']*'/set \${s}.disabled='0'/g"  package/network/config/wifi-scripts/files/lib/wifi/mac80211.uc
 
 # update default SSID
-sed -i "s/set \${si}\.ssid='\${defaults?.ssid || \"OpenWrt\"}'/set \${si}.ssid='\${defaults?.ssid || \"OpenWrt-WiFi\"}'/g" package/network/config/wifi-scripts/files/lib/wifi/mac80211.uc
+#sed -i "s/set \${si}\.ssid='\${defaults?.ssid || \"OpenWrt\"}'/set \${si}.ssid='\${defaults?.ssid || \"OpenWrt-WiFi\"}'/g" package/network/config/wifi-scripts/files/lib/wifi/mac80211.uc
 
 # fix 802.11r +PSK-SAE ,apple device can't connect issue
 # ref https://github.com/openwrt/openwrt/issues/7858
