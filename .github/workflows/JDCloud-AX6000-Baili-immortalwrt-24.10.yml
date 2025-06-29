@@ -38,7 +38,7 @@ env:
   FEEDS_CONF: JDCloud-AX6000-Baili-immortalwrt/immortalwrt-feeds.conf.default
   CONFIG_FILE: JDCloud-AX6000-Baili-immortalwrt/immortalwrt-SDK-mt7986-ax6000.config
   DIY_P1_SH: JDCloud-AX6000-Baili-immortalwrt/diy-part1.sh
-  DIY_P2_SH: JDCloud-AX6000-Baili-immortalwrt/diy-part2-openwrt.sh
+  DIY_P2_SH: JDCloud-AX6000-Baili-immortalwrt/diy-part2-Immortalwrt.sh
   SSH_ACTIONS: false
   UPLOAD_FIRMWARE: true
   UPLOAD_RELEASE: true
