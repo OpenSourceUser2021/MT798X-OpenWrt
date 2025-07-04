@@ -33,7 +33,7 @@ on:
 env:
   ###############手动修改##############
   OPENWRT_NAME: openwrt
-  REPO_URL: https://github.com/openwrt/openwrt
+  REPO_URL: https://github.com/immortalwrt/immortalwrt
   REPO_BRANCH: openwrt-24.10
   FEEDS_CONF: JDCloud-AX6000-Baili-immortalwrt/openwrt-feeds.conf.default
   CONFIG_FILE: JDCloud-AX6000-Baili-immortalwrt/immortalwrt.config
