@@ -30,10 +30,12 @@ sudo -E apt-get -qq install libfuse-dev
 #rm -rf feeds/luci/applications/luci-app-openclash
 #git clone --depth 1 https://github.com/vernesong/OpenClash.git package/custom/luci-app-openclash
 #git clone --depth 1 https://github.com/morytyann/OpenWrt-mihomo.git package/custom/OpenWrt-mihomo
-rm -f target/linux/mediatek/dts/mt7986a-jdcloud-re-cp-03.dts
-rm -f target/linux/mediatek/image/filogic.mk
-cp $GITHUB_WORKSPACE/JDCloud-AX6000-Baili-immortalwrt/mt7986a-jdcloud-re-cp-03.dts target/linux/mediatek/dts/mt7986a-jdcloud-re-cp-03.dts
-cp $GITHUB_WORKSPACE/JDCloud-AX6000-Baili-immortalwrt/filogic.mk target/linux/mediatek/image/filogic.mk
+
+
+#rm -f target/linux/mediatek/dts/mt7986a-jdcloud-re-cp-03.dts
+#rm -f target/linux/mediatek/image/filogic.mk
+#cp $GITHUB_WORKSPACE/JDCloud-AX6000-Baili-immortalwrt/mt7986a-jdcloud-re-cp-03.dts target/linux/mediatek/dts/mt7986a-jdcloud-re-cp-03.dts
+#cp $GITHUB_WORKSPACE/JDCloud-AX6000-Baili-immortalwrt/filogic.mk target/linux/mediatek/image/filogic.mk
 
 # remove openwrt/package  and use immortalwrt/package
 # rm -rf feeds/packages/net/zerotier
