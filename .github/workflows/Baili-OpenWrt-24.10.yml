@@ -32,7 +32,7 @@ on:
 
 env:
   ###############手动修改##############
-  OPENWRT_NAME: openwrt
+  OPENWRT_NAME: OpenWrt-24.10
   REPO_URL: https://github.com/openwrt/openwrt.git
   REPO_BRANCH: openwrt-24.10
   FEEDS_CONF: JDCloud-AX6000-Baili-immortalwrt/openwrt-24.10-feeds.conf.default
