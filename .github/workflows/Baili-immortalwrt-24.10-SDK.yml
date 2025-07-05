@@ -35,7 +35,7 @@ env:
   OPENWRT_NAME: immortalwrt-SDK
   REPO_URL: https://github.com/padavanonly/immortalwrt-mt798x-6.6
   REPO_BRANCH: openwrt-24.10-6.6
-  FEEDS_CONF: JDCloud-AX6000-Baili-immortalwrt/immortalwrt-feeds.conf.default
+  FEEDS_CONF: JDCloud-AX6000-Baili-immortalwrt/immortalwrt-24.10-feeds.conf.default
   CONFIG_FILE: JDCloud-AX6000-Baili-immortalwrt/immortalwrt-SDK-mt7986-ax6000.config
   DIY_P1_SH: JDCloud-AX6000-Baili-immortalwrt/diy-part1.sh
   DIY_P2_SH: JDCloud-AX6000-Baili-immortalwrt/diy-part2-Immortalwrt.sh
