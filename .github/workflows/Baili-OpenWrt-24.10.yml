@@ -36,7 +36,7 @@ env:
   REPO_URL: https://github.com/openwrt/openwrt.git
   REPO_BRANCH: openwrt-24.10
   FEEDS_CONF: JDCloud-AX6000-Baili-immortalwrt/openwrt-24.10-feeds.conf.default
-  CONFIG_FILE: JDCloud-AX6000-Baili-immortalwrt/immortalwrt.config
+  CONFIG_FILE: JDCloud-AX6000-Baili-immortalwrt/OpenWrt.config
   DIY_P1_SH: JDCloud-AX6000-Baili-immortalwrt/diy-part1.sh
   DIY_P2_SH: JDCloud-AX6000-Baili-immortalwrt/diy-part2-openwrt.sh
   SSH_ACTIONS: false
