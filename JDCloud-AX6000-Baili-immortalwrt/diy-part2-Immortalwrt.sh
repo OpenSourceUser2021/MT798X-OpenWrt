@@ -33,8 +33,8 @@ sudo -E apt-get -qq install libfuse-dev
 
 
 # fix upgrade failure issue
-#rm -f target/linux/mediatek/filogic/base-files/lib/upgrade/platform.sh
-#cp $GITHUB_WORKSPACE/JDCloud-AX6000-Baili-immortalwrt/mod_files/platform.sh target/linux/mediatek/filogic/base-files/lib/upgrade/platform.sh
+rm -f target/linux/mediatek/filogic/base-files/lib/upgrade/platform.sh
+cp $GITHUB_WORKSPACE/JDCloud-AX6000-Baili-immortalwrt/mod_files/platform.sh target/linux/mediatek/filogic/base-files/lib/upgrade/platform.sh
 
 # remove openwrt/package  and use immortalwrt/package
 # rm -rf feeds/packages/net/zerotier
