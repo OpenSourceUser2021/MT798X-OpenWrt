@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 ###############手动修改##############
-name: Baili-immortalwrt-24.10-SDK
+name: Baili-Immortalwrt-24.10-SDK
 
 on:
   repository_dispatch:
