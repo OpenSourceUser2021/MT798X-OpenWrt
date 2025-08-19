@@ -31,7 +31,10 @@ sudo -E apt-get -qq install libfuse-dev
 #git clone --depth 1 https://github.com/vernesong/OpenClash.git package/custom/luci-app-openclash
 #git clone --depth 1 https://github.com/morytyann/OpenWrt-mihomo.git package/custom/OpenWrt-mihomo
 
-
+# fix_rust_compile_error
+if [ -f "$BUILD_DIR/feeds/packages/lang/rust/Makefile" ]; then
+    sed -i 's/download-ci-llvm=true/download-ci-llvm=false/g' "$BUILD_DIR/feeds/packages/lang/rust/Makefile"
+fi
 
 # remove openwrt/package  and use immortalwrt/package
 # rm -rf feeds/packages/net/zerotier
