@@ -2,7 +2,7 @@
 
 src-git OpenAppFilter https://github.com/destan19/OpenAppFilter.git 
 src-git lang_golang https://github.com/sbwml/packages_lang_golang.git
-src-git OpenWrt_openlist https://github.com/OpenListTeam/OpenList-OpenWRT.git
+#src-git OpenWrt_openlist https://github.com/OpenListTeam/OpenList-OpenWRT.git
 src-git wechatpush https://github.com/tty228/luci-app-wechatpush.git
 src-git OpenWrt_nikki https://github.com/nikkinikki-org/OpenWrt-nikki.git
 src-git OpenClash https://github.com/vernesong/OpenClash.git
