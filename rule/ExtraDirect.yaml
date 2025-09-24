@@ -52,3 +52,7 @@ payload:
     - +.tmall.com
     - +.pinduoduo.com
     - +.yangkeduo.com
+ # CDN
+    - +.bytefcdn.com
+    - +.bytefcdnrd.com
+
