@@ -7,6 +7,7 @@ src-git wechatpush https://github.com/tty228/luci-app-wechatpush.git
 # src-git OpenWrt_nikki https://github.com/nikkinikki-org/OpenWrt-nikki.git
 src-git OpenClash https://github.com/vernesong/OpenClash.git
 # src-git PassWall https://github.com/xiaorouji/openwrt-passwall.git
+src-git rtp2httpd https://github.com/stackia/rtp2httpd.git
 
 src-git packages https://github.com/openwrt/packages.git;openwrt-24.10
 src-git luci https://github.com/openwrt/luci.git;openwrt-24.10
