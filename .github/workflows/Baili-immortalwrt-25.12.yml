@@ -105,7 +105,6 @@ jobs:
     - name: Checkout
       uses: actions/checkout@main
     - name: 下载固件源码
-      working-directory: /workdir
       run: |
         df -hT $PWD
         git clone $REPO_URL -b $REPO_BRANCH openwrt
