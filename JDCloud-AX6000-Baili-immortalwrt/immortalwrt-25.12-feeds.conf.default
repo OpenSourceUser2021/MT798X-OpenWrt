@@ -8,7 +8,7 @@
 src-git OpenWrt_nikki https://github.com/nikkinikki-org/OpenWrt-nikki.git
 # src-git PassWall https://github.com/xiaorouji/openwrt-passwall.git
 src-git rtp2httpd https://github.com/stackia/rtp2httpd.git
-src-git NetworkWizard https://github.com/sirpdboy/luci-app-wizard
+src-git netwizard https://github.com/sirpdboy/luci-app-netwizard
 
 src-git packages https://github.com/immortalwrt/packages.git;openwrt-25.12
 src-git luci https://github.com/immortalwrt/luci.git;openwrt-25.12
