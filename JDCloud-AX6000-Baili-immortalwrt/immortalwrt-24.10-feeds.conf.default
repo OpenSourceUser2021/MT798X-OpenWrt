@@ -9,6 +9,7 @@ src-git OpenWrt_nikki https://github.com/nikkinikki-org/OpenWrt-nikki.git
 # src-git PassWall https://github.com/xiaorouji/openwrt-passwall.git
 src-git rtp2httpd https://github.com/stackia/rtp2httpd.git
 src-git netwizard https://github.com/sirpdboy/luci-app-netwizard
+src-git timecontrol https://github.com/sirpdboy/luci-app-timecontrol
 
 src-git packages https://github.com/immortalwrt/packages.git;openwrt-24.10
 src-git luci https://github.com/immortalwrt/luci.git;openwrt-24.10
