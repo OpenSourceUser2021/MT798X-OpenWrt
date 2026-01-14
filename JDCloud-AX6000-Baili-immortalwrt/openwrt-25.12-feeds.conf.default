@@ -4,12 +4,12 @@
 #- src-git lang_golang https://github.com/sbwml/packages_lang_golang.git
 #- src-git OpenWrt_openlist https://github.com/OpenListTeam/OpenList-OpenWRT.git
 #- src-git wechatpush https://github.com/tty228/luci-app-wechatpush.git
-src-git OpenWrt_nikki https://github.com/nikkinikki-org/OpenWrt-nikki.git
+# src-git OpenWrt_nikki https://github.com/nikkinikki-org/OpenWrt-nikki.git
 src-git OpenClash https://github.com/vernesong/OpenClash.git
 # src-git PassWall https://github.com/xiaorouji/openwrt-passwall.git
 src-git rtp2httpd https://github.com/stackia/rtp2httpd.git
 src-git netwizard https://github.com/sirpdboy/luci-app-netwizard
-src-git timecontrol https://github.com/sirpdboy/luci-app-timecontrol
+# src-git timecontrol https://github.com/sirpdboy/luci-app-timecontrol
 
 src-git packages https://git.openwrt.org/feed/packages.git;openwrt-25.12
 src-git luci https://git.openwrt.org/project/luci.git;openwrt-25.12
