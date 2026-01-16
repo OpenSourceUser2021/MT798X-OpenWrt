@@ -56,3 +56,13 @@ payload:
     - +.bytefcdn.com
     - +.bytefcdnrd.com
 
+# VPS domains
+    - kernel.zyns.com
+    - kernel.changeip.org
+    - kernel2022.freetcp.com
+    - server2022.lflink.com
+    - server2020.dynssl.com
+    - backup2020.freeddns.com
+    - +.linuxkernel.online
+
+
