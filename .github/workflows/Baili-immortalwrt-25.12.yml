@@ -213,6 +213,7 @@ jobs:
         cd $OPENWRT_PATH/bin/targets/*/*
         rm -rf packages
         # find ./ -iregex ".*\(bl31-uboot.fip\|gpt.bin\|preloader.bin\|bl2.bin\)$" -exec rm -rf {} +
+        find ./ -iregex ".*\(initramfs-recovery.itb\|bl2.bin\)$" -exec rm -rf {} +
         sudo -E apt-get -qq install rename
         rename 's/.*${{ env.DEVICE_NAME }}/${{ env.FILE_DATE }}-${{ env.OPENWRT_NAME }}-${{ env.DEVICE_NAME }}/' *
         echo "FIRMWARE=$PWD" >> $GITHUB_ENV
