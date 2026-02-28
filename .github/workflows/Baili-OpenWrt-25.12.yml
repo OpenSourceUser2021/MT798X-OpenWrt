@@ -167,6 +167,7 @@ jobs:
 
     - name: Create UCI-Defaults Script
       run: |
+        cd $OPENWRT_PATH
         # 创建目录（如果不存在）
         mkdir -p files/etc/uci-defaults
     
