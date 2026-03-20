@@ -179,12 +179,8 @@ jobs:
         uci -q batch <<EOT
           set wireless.radio0.disabled='0'
           set wireless.default_radio0.disabled='0'
-          set wireless.default_radio0.ssid='OpenWrt_2G'
-          set wireless.default_radio0.encryption='none'
           set wireless.radio1.disabled='0'
           set wireless.default_radio1.disabled='0'
-          set wireless.default_radio1.ssid='OpenWrt_5G'
-          set wireless.default_radio1.encryption='none'
           commit wireless
         EOT
     
