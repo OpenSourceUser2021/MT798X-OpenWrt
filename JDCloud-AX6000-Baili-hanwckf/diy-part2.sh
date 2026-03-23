@@ -26,38 +26,6 @@ mkdir package/custom
 # <----
 
 
-mkdir immortalwrt_pkg
-git clone --depth 1 https://github.com/immortalwrt/packages.git immortalwrt_pkg
-
-rm -rf feeds/packages/net/xray-core
-mv immortalwrt_pkg/net/xray-core feeds/packages/net/xray-core
-
-rm -rf feeds/packages/net/hysteria
-mv immortalwrt_pkg/net/hysteria feeds/packages/net/hysteria
-
-rm -rf feeds/packages/net/haproxy
-mv immortalwrt_pkg/net/haproxy feeds/packages/net/haproxy
-
-rm -rf feeds/packages/net/sing-box
-mv immortalwrt_pkg/net/sing-box feeds/packages/net/sing-box
-
-rm -rf feeds/packages/net/zerotier
-mv immortalwrt_pkg/net/zerotier feeds/packages/net/zerotier
-
-# rm -rf feeds/packages/net/tailscale
-# mv immortalwrt_pkg/net/tailscale feeds/packages/net/tailscale
-# sed -i "7s/nftables/iptables/g" feeds/packages/net/tailscale/files/tailscale.conf
-
-# rm -rf feeds/packages/net/smartdns
-# mv immortalwrt_pkg/net/smartdns feeds/packages/net/smartdns
-
-rm -rf feeds/packages/net/msd_lite
-mv immortalwrt_pkg/net/msd_lite feeds/packages/net/msd_lite
-
-rm -rf feeds/packages/lang/golang
-mv immortalwrt_pkg/lang/golang feeds/packages/lang/golang
-
-rm -rf immortalwrt_pkg
 
 
 
@@ -73,9 +41,7 @@ rm -rf feeds/packages/net/alist
 rm -rf feeds/luci/applications/luci-app-alist
 git clone --depth 1 https://github.com/sbwml/openwrt-alist.git package/custom/luci-app-alist
 
-# passwall
-rm -rf feeds/luci/applications/luci-app-passwall
-merge_package https://github.com/xiaorouji/openwrt-passwall.git openwrt-passwall/luci-app-passwall
+
 
 # smartdns
 #rm -rf feeds/packages/net/smartdns
@@ -83,14 +49,6 @@ merge_package https://github.com/xiaorouji/openwrt-passwall.git openwrt-passwall
 # rm -rf feeds/luci/applications/luci-app-smartdns
 # git clone --depth 1 https://github.com/pymumu/luci-app-smartdns.git feeds/luci/applications/luci-app-smartdns
 
-rm -rf feeds/luci/applications/luci-app-wechatpush
-git clone --depth 1 https://github.com/tty228/luci-app-wechatpush.git package/custom/luci-app-wechatpush
-
-rm -rf feeds/luci/applications/luci-app-timecontrol
-merge_package https://github.com/Lienol/openwrt-package.git openwrt-package/luci-app-timecontrol
-
-rm -rf feeds/luci/applications/luci-app-openclash
-merge_package https://github.com/vernesong/OpenClash OpenClash/luci-app-openclash
 
 # FROS是一款路由器防沉迷系统，支持常见的游戏、视频等APP过滤，如抖音、斗鱼、王者荣耀、和平精英等，并支持 APP使用时长统计，小孩网课必备神器。
 # git clone -b fros-21.02 --depth 1 https://github.com/destan19/fros-packages-immortalwrt-mt798x.git package/custom/fros-packages
