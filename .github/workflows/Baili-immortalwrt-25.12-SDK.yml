@@ -36,7 +36,7 @@ env:
   REPO_URL: https://github.com/chasey-dev/immortalwrt-mt798x-rebase
   REPO_BRANCH: 25.12-dev
   FEEDS_CONF: JDCloud-AX6000-Baili-immortalwrt/immortalwrt-25.12-feeds.conf.default
-  CONFIG_FILE: JDCloud-AX6000-Baili-immortalwrt/OpenWrt.config
+  CONFIG_FILE: JDCloud-AX6000-Baili-immortalwrt/OpenWrt-SDK.config
   DIY_P1_SH: JDCloud-AX6000-Baili-immortalwrt/diy-part1.sh
   DIY_P2_SH: JDCloud-AX6000-Baili-immortalwrt/diy-part2-Immortalwrt.sh
   SSH_ACTIONS: false
