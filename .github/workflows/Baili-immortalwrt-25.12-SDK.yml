@@ -32,7 +32,7 @@ on:
 
 env:
   ###############手动修改##############
-  OPENWRT_NAME: immortalwrt-25.12
+  OPENWRT_NAME: immortalwrt-25.12-SDK
   REPO_URL: https://github.com/chasey-dev/immortalwrt-mt798x-rebase
   REPO_BRANCH: 25.12-dev
   FEEDS_CONF: JDCloud-AX6000-Baili-immortalwrt/immortalwrt-25.12-feeds.conf.default
