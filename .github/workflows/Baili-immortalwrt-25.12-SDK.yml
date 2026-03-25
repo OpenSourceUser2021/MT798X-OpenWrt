@@ -33,6 +33,7 @@ on:
 env:
   ###############手动修改##############
   OPENWRT_NAME: immortalwrt-25.12-SDK
+  UPLOAD_TAG_NAME: jdcloud_re-cp-03
   REPO_URL: https://github.com/chasey-dev/immortalwrt-mt798x-rebase
   REPO_BRANCH: 25.12-dev
   FEEDS_CONF: JDCloud-AX6000-Baili-immortalwrt/immortalwrt-25.12-feeds.conf.default
@@ -217,7 +218,7 @@ jobs:
                 for file in *"${val}"*; do
                         if [ -f "$file" ]; then
                                 suffix="${file#*${val}}"
-                                new_name="${{ env.FILE_DATE }}-${{ env.OPENWRT_NAME }}-${val}${{ env.BUILD_DOCKERMAN }}${suffix}"
+                                new_name="${{ env.FILE_DATE }}-${{ env.OPENWRT_NAME }}-${val}${suffix}"
                                 mv "$file" "$new_name"
                                 echo "  Renamed: $file -> $new_name"
                         fi
