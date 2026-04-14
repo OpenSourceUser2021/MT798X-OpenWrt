@@ -18,11 +18,6 @@ on:
         description: 'Set LAN IP Address'
         required: true
         default: '192.168.1.1'
-      NO_DOCKERMAN:
-        description: 'Not build luci-app-dockerman'
-        required: true
-        default: false
-        type: boolean
       ssh:
         description: 'SSH connection to Actions'
         required: false
@@ -44,6 +39,7 @@ env:
   SSH_ACTIONS: false
   UPLOAD_FIRMWARE: true
   UPLOAD_RELEASE: true
+  CACHE_TOOLCHAIN: true
   TZ: Asia/Shanghai
 
 
@@ -246,7 +242,7 @@ jobs:
         echo "status=success" >> $GITHUB_OUTPUT
 
     - name: 发布固件至Release
-      uses: softprops/action-gh-release@v2.1.0
+      uses: softprops/action-gh-release@v2.6.1
       if: steps.tag.outputs.status == 'success' && !cancelled()
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
